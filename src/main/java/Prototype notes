@@ -1,0 +1,16 @@
+Prototype:
+1) Creational Pattern
+2) Used to copy an instantiated object
+3) Clones do not use keyword new
+4) Usually implemented with a Registry to store original object and clones
+5) Shallow Copies do not store differences between original registry and cloned registry
+6) Deep Copies store and return changes
+7) Used by implementing Cloneable or Prototype interfaces in object class
+8) Used to help create multiple instances of an object quickly
+9) Prototypes avoid costly creation
+10) Avoids subclassing
+11) Often uses an interface for prototype instance
+12) Can utilize parameters in a clone method for construction
+13) A deep copy doesn't depend on its clone
+14 )A shallow copy depends on its clone and is mutatable
+15) it is better to use a deep copy
